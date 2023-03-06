@@ -9,6 +9,9 @@ module.exports = {
         "third" : "#FFFFD0",
         "link" : "#1D77FF"
       }
+    },
+    container: {
+      center: true
     }
    
   },
