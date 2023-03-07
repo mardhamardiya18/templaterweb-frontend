@@ -13,3 +13,17 @@ var swiper = new Swiper(".myTechSwiper", {
         }
     }
   });
+
+  var swiper = new Swiper(".myCategorySwiper", {
+    slidesPerView: 2,
+    spaceBetween: 10,
+    grabCursor: true,
+    pagination: true,
+    breakpoints: {
+        768: {
+            slidesPerView: 3,
+             spaceBetween: 10,
+             
+        }
+    }
+  });
