@@ -24,6 +24,12 @@
       rel="stylesheet"
     />
 
+    <!-- Swipper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
     <!-- Global CSS -->
     <link href="css/output.css" rel="stylesheet" />
   </head>
@@ -111,7 +117,7 @@
     </nav>
 
     <!-- Header -->
-    <section class="md:mt-[60px] xl:mt-[110px] relative">
+    <section class="mt-[60px] xl:mt-[80px] 2xl:mt-[110px] relative">
       <img
         src="img/orn-hero1.svg"
         class="absolute hidden left-0 top-0 -z-10 sm:block"
@@ -128,12 +134,12 @@
         alt=""
       />
       <div
-        class="md:max-w-[700px] lg:max-w-[950px] xl:max-w-[1150px] 2xl:max-w-[1300px] mx-auto text-center lg:text-left lg:flex justify-between items-center"
+        class="myContainer text-center lg:text-left lg:flex justify-between items-center"
       >
         <!-- Left Content -->
         <div>
           <h1 class="font-extrabold text-[35px] xl:text-[40px] text-slate-800">
-            Transform Your Website with <br />
+            Transform Your Website with <br class="hidden sm:block" />
             Our Stunning Templates
           </h1>
           <p class="text-base lg:text-lg mt-5 text-slate-800">
@@ -161,7 +167,47 @@
       </div>
     </section>
 
+    <!-- Tech used -->
+    <section class="mt-[100px]">
+      <h2 class="text-xl font-semibold text-center text-slate-800">
+        Using Powerfull Technology
+      </h2>
+      <div
+        class="w-full bg-third py-[22px] mt-[30px] hidden lg:flex justify-center items-center gap-8 flex-wrap"
+      >
+        <img src="img/figma.svg" alt="" />
+        <img src="img/html.svg" alt="" />
+        <img src="img/css.svg" alt="" />
+        <img src="img/js.svg" alt="" />
+        <img src="img/bootstrap.svg" alt="" />
+        <img src="img/tailwind.svg" alt="" />
+        <img src="img/laravel.svg" alt="" />
+        <img src="img/vue.svg" alt="" />
+      </div>
+
+      <!-- Swiper -->
+      <div class="swiper myTechSwiper bg-third py-[22px] mt-[30px] lg:hidden">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/figma.svg" alt="" /></div>
+          <div class="swiper-slide"><img src="img/html.svg" alt="" /></div>
+          <div class="swiper-slide"><img src="img/css.svg" alt="" /></div>
+          <div class="swiper-slide"><img src="img/js.svg" alt="" /></div>
+          <div class="swiper-slide"><img src="img/bootstrap.svg" alt="" /></div>
+          <div class="swiper-slide"><img src="img/tailwind.svg" alt="" /></div>
+          <div class="swiper-slide"><img src="img/laravel.svg" alt="" /></div>
+          <div class="swiper-slide"><img src="img/vue.svg" alt="" /></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
     <!-- Flowbite script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
+
+    <!-- Swiperr -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Myscript -->
+    <script src="js/index.js"></script>
   </body>
 </html>
