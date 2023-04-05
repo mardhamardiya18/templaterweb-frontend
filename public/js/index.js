@@ -23,6 +23,7 @@ buttons.forEach(function(button) {
 
 
 
+
 var swiper = new Swiper(".myTechSwiper", {
     slidesPerView: 4,
     spaceBetween: 20,
@@ -81,3 +82,4 @@ var swiper = new Swiper(".myTechSwiper", {
     },
   
   });
+
