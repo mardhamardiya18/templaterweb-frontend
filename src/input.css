@@ -29,3 +29,12 @@ body{
 .mySecondBtn.active {
     @apply text-white bg-primary ring-1 ring-primary focus:ring-4 focus:outline-none focus:ring-blue-300 font-normal rounded-lg text-xs sm:text-sm px-4 py-2 sm:px-5 sm:py-3 text-center
 }
+
+.activeMenu{
+    @apply text-white bg-primary rounded md:bg-transparent md:text-primary font-semibold
+}
+
+.nonActiveMenu{
+    @apply text-gray-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary
+   
+}
