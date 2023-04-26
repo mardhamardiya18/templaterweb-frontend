@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="img/svg" href="img/ico.svg" />
+    <title>
+      Templaterweb | Wujudkan Website Profesional dengan Cepat dan Mudah
+      Menggunakan Template Website Berkualitas Tinggi
+    </title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Flowbite CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Swipper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- Global CSS -->
+    <link href="css/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="bg-white border-gray-200 px-2 sm:px-4 py-5 rounded fixed top-0 left-0 right-0 z-50 shadow-sm"
+    >
+      <div
+        class="container flex flex-wrap items-center justify-between mx-auto"
+      >
+        <a href="https://flowbite.com/" class="flex items-center">
+          <img
+            src="img/logo.svg"
+            class="h-10 mr-3 md:h-12 xl:h-14"
+            alt="Templaterweb"
+          />
+        </a>
+        <div class="flex md:order-2">
+          <button type="button" class="myFirstBtn mr-3 md:mr-0">
+            Daftar / Masuk
+          </button>
+          <button
+            data-collapse-toggle="navbar-cta"
+            type="button"
+            class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+            aria-controls="navbar-cta"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-6 h-6"
+              aria-hidden="true"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          id="navbar-cta"
+        >
+          <ul
+            class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-10 xl:space-x-14 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white"
+          >
+            <li>
+              <a
+                href="#"
+                class="text-sm xl:text-base block py-2 pl-3 pr-4 md:p-0 nonActiveMenu"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-sm xl:text-base block py-2 pl-3 pr-4 md:p-0 activeMenu"
+                >Produk</a
+              >
+            </li>
+            <li class="relative">
+              <a
+                href="#"
+                class="text-sm xl:text-base block py-2 pl-3 pr-4 md:p-0 nonActiveMenu"
+                >Flash Sale</a
+              >
+              <span
+                class="bg-primary text-[10px] xl:text-xs p-1 md:p-[1px] xl:p-1 text-white rounded absolute top-0 right-0 md:-top-[10px] md:-right-[20px] lg:-top-[10px] lg:-right-[30px] animate-pulse"
+                >Live</span
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-sm xl:text-base block py-2 pl-3 pr-4 md:p-0 nonActiveMenu"
+                >Study Case</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      class="flex mt-[100px] md:mt-[120px] xl:mt-[150px] myContainer px-3 md:px-0"
+      aria-label="Breadcrumb"
+    >
+      <ol class="inline-flex items-center space-x-1 md:space-x-3">
+        <li class="inline-flex items-center">
+          <a
+            href="#"
+            class="text-sm font-medium text-gray-700 hover:text-blue-600"
+          >
+            Produk
+          </a>
+        </li>
+        <li>
+          <div class="flex items-center">
+            <svg
+              aria-hidden="true"
+              class="w-6 h-6 text-gray-400"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <a
+              href="#"
+              class="ml-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ml-2"
+              >Projects</a
+            >
+          </div>
+        </li>
+        <li aria-current="page">
+          <div class="flex items-center">
+            <svg
+              aria-hidden="true"
+              class="w-6 h-6 text-gray-400"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <span
+              class="ml-1 text-sm font-medium text-gray-500 md:ml-2 dark:text-gray-400"
+              >Flowbite</span
+            >
+          </div>
+        </li>
+      </ol>
+    </div>
+
+    <!-- Gallery -->
+    <div
+      class="myContainer md:flex justify-between gap-5 mt-5 md:mt-8 2xl:mt-12 px-3 md:px-0"
+    >
+      <div class="max-w-[450px] lg:max-w-[600px] xl:max-w-[780px]">
+        <div
+          style="
+            --swiper-navigation-color: #fff;
+            --swiper-pagination-color: #fff;
+          "
+          class="swiper mySwiper2"
+        >
+          <div class="swiper-wrapper">
+            <div class="swiper-slide rounded-md md:rounded-xl overflow-hidden">
+              <img src="img/detail1.png" />
+            </div>
+            <div class="swiper-slide rounded-md md:rounded-xl overflow-hidden">
+              <img src="img/detail2.png" />
+            </div>
+            <div class="swiper-slide rounded-md md:rounded-xl overflow-hidden">
+              <img src="img/detail3.png" />
+            </div>
+            <div class="swiper-slide rounded-md md:rounded-xl overflow-hidden">
+              <img src="img/detail4.png" />
+            </div>
+          </div>
+        </div>
+        <div thumbsSlider="" class="swiper mySwiper mt-5">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide rounded-md md:rounded-xl overflow-hidden">
+              <img src="img/detail1.png" />
+            </div>
+            <div class="swiper-slide rounded-md md:rounded-xl overflow-hidden">
+              <img src="img/detail2.png" />
+            </div>
+            <div class="swiper-slide rounded-md md:rounded-xl overflow-hidden">
+              <img src="img/detail3.png" />
+            </div>
+            <div class="swiper-slide rounded-md md:rounded-xl overflow-hidden">
+              <img src="img/detail4.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="p-6 rounded-md md:rounded-3xl border border-purple-200 max-h-[450px] mt-5 md:mt-0"
+      >
+        <div class="flex items-center gap-3">
+          <img src="img/figma.svg" alt="" class="w-8" />
+          <div>
+            <p>Figma Project</p>
+            <small class="text-slate-400">(UI Design + Design System)</small>
+          </div>
+        </div>
+        <div class="mt-4 flex items-center gap-3">
+          <img src="img/tailwind.svg" alt="" class="w-8" />
+          <div>
+            <p>Full Source Code</p>
+            <small class="text-slate-400">(Clean + Responsive)</small>
+          </div>
+        </div>
+
+        <div class="mt-6 md:mt-10">
+          <p>Benefit yang didapat:</p>
+          <div class="flex items-center gap-2 mt-2">
+            <img src="img/check.svg" alt="" />
+            <p class="text-slate-400">Customizable Layer</p>
+          </div>
+          <div class="flex items-center gap-2 mt-2">
+            <img src="img/check.svg" alt="" />
+            <p class="text-slate-400">Dokumentasi</p>
+          </div>
+          <div class="flex items-center gap-2 mt-2">
+            <img src="img/check.svg" alt="" />
+            <p class="text-slate-400">Icon Set Design</p>
+          </div>
+          <div class="flex items-center gap-2 mt-2">
+            <p class="text-slate-400">Dan lain-lain</p>
+          </div>
+        </div>
+        <a href="#" class="myFirstBtn block mt-10 md:mt-12">Pricing</a>
+      </div>
+    </div>
+
+    <!-- Title -->
+    <div class="mt-12 myContainer px-3 md:px-0">
+      <h1 class="text-xl lg:text-2xl 2xl:text-3xl font-medium text-black">
+        Completed Template Website Rental Mobil
+      </h1>
+      <p class="mt-2">
+        Kategori <a href="#" class="text-link">Tour & Travel</a>
+      </p>
+    </div>
+
+    <!-- Deskripsi -->
+    <div class="myContainer mt-12 px-3 md:px-0">
+      <p class="text-lg xl:text-xl font-medium text-black">Deskripsi Produk</p>
+      <p
+        class="mt-3 md:mt-5 lg:max-w-[600px] xl:max-w-[780px] text-justify text-black"
+      >
+        Template ini sangat membantu anda dalam mengembangkan website rental
+        mobil, disusun secara profesional yang tentunya mudah dipahami,
+        dokumentasi lengkap mulai dari installasi sampai dengan website siap
+        lauching, template ini dibundlle secara lengkap sehingga pekerjaan anda
+        dapat terselesaikan secara cepat.
+      </p>
+    </div>
+
+    <!-- Studi Case -->
+    <div class="myContainer mt-12 px-3 md:px-0">
+      <p class="text-lg xl:text-xl font-medium mb-5 text-black">
+        Studi Kasus lain yang berhubungan dengan produk ini:
+      </p>
+      <div class="flex items-center gap-2">
+        <img src="img/check.svg" alt="" />
+        <p>Website Showrooms</p>
+      </div>
+      <div class="flex items-center gap-2">
+        <img src="img/check.svg" alt="" />
+        <p>Website Travel</p>
+      </div>
+      <div class="flex items-center gap-2">
+        <img src="img/check.svg" alt="" />
+        <p>Website Travel</p>
+      </div>
+    </div>
+
+    <!-- Produk Rekomendasi -->
+    <div class="myContainer mt-12 px-3 md:px-0">
+      <p class="text-lg xl:text-xl font-medium">
+        Produk lain mungkin menjadi solusi kamu
+      </p>
+      <div>
+        <!-- Swiper -->
+        <div class="swiper mySwiperRec pb-4">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="p-1">
+                <div class="rounded-[30px] py-[22px] px-[20px] shadow h-full">
+                  <div
+                    class="img-box rounded-[15px] overflow-hidden w-full md:h-[200px] xl:h-[260px] mb-[24px]"
+                  >
+                    <img src="img/plantshop.png" class="w-full" alt="" />
+                  </div>
+                  <a
+                    href="javascript:void(0)"
+                    class="text-base xl:text-[18px] font-semibold text-black flex-grow"
+                  >
+                    Completed Template Toko Tanaman
+                  </a>
+                  <div class="mt-2">
+                    <a href="javascript:void(0)" class="text-base text-primary"
+                      >E-commerce</a
+                    >
+                    <div class="mt-6 flex items-center gap-2">
+                      <span class="p-1 bg-primary rounded text-white text-xs"
+                        >Start</span
+                      >
+                      <p class="text-xl font-semibold">Rp 150.000</p>
+                    </div>
+
+                    <div class="flex justify-between items-center gap-2 mt-5">
+                      <div class="flex items-center gap-2">
+                        <img src="img/rate-full.svg" alt="" />
+                        <p class="font-semibold">4.8</p>
+                        <p class="text-slate-400">(128)</p>
+                      </div>
+                      <div class="flex items-center gap-2">
+                        <img src="img/figmaIco.png" alt="" />
+                        <img src="img/htmlIco.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="p-1">
+                <div class="rounded-[30px] py-[22px] px-[20px] shadow h-full">
+                  <div
+                    class="img-box rounded-[15px] overflow-hidden w-full md:h-[200px] xl:h-[260px] mb-[24px]"
+                  >
+                    <img src="img/plantshop.png" class="w-full" alt="" />
+                  </div>
+                  <a
+                    href="javascript:void(0)"
+                    class="text-base xl:text-[18px] font-semibold text-black flex-grow"
+                  >
+                    Completed Template Toko Tanaman
+                  </a>
+                  <div class="mt-2">
+                    <a href="javascript:void(0)" class="text-base text-primary"
+                      >E-commerce</a
+                    >
+                    <div class="mt-6 flex items-center gap-2">
+                      <span class="p-1 bg-primary rounded text-white text-xs"
+                        >Start</span
+                      >
+                      <p class="text-xl font-semibold">Rp 150.000</p>
+                    </div>
+
+                    <div class="flex justify-between items-center gap-2 mt-5">
+                      <div class="flex items-center gap-2">
+                        <img src="img/rate-full.svg" alt="" />
+                        <p class="font-semibold">4.8</p>
+                        <p class="text-slate-400">(128)</p>
+                      </div>
+                      <div class="flex items-center gap-2">
+                        <img src="img/figmaIco.png" alt="" />
+                        <img src="img/htmlIco.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="p-1">
+                <div class="rounded-[30px] py-[22px] px-[20px] shadow h-full">
+                  <div
+                    class="img-box rounded-[15px] overflow-hidden w-full md:h-[200px] xl:h-[260px] mb-[24px]"
+                  >
+                    <img src="img/plantshop.png" class="w-full" alt="" />
+                  </div>
+                  <a
+                    href="javascript:void(0)"
+                    class="text-base xl:text-[18px] font-semibold text-black flex-grow"
+                  >
+                    Completed Template Toko Tanaman
+                  </a>
+                  <div class="mt-2">
+                    <a href="javascript:void(0)" class="text-base text-primary"
+                      >E-commerce</a
+                    >
+                    <div class="mt-6 flex items-center gap-2">
+                      <span class="p-1 bg-primary rounded text-white text-xs"
+                        >Start</span
+                      >
+                      <p class="text-xl font-semibold">Rp 150.000</p>
+                    </div>
+
+                    <div class="flex justify-between items-center gap-2 mt-5">
+                      <div class="flex items-center gap-2">
+                        <img src="img/rate-full.svg" alt="" />
+                        <p class="font-semibold">4.8</p>
+                        <p class="text-slate-400">(128)</p>
+                      </div>
+                      <div class="flex items-center gap-2">
+                        <img src="img/figmaIco.png" alt="" />
+                        <img src="img/htmlIco.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-[100px]">
+      <div class="myContainer flex justify-between flex-col lg:flex-row px-3">
+        <div>
+          <img src="img/logo.svg" class="h-10 mr-3 md:h-12 xl:h-14" alt="" />
+          <p class="mt-5 max-w-[450px]">
+            Platform kumpulan Template website dengan support berbagai teknologi
+            yang mudah di custom dan di implementasikan untuk kebutuhan bisnis
+            anda.
+          </p>
+          <div class="flex justify-start items-center gap-5 mt-5">
+            <a href="#">
+              <img src="img/whatsapp.svg" class="w-[30px] lg:w-full" alt="" />
+            </a>
+            <a href="#">
+              <img src="img/instagram.svg" class="w-[30px] lg:w-full" alt="" />
+            </a>
+            <a href="#">
+              <img src="img/behance.svg" class="w-[30px] lg:w-full" alt="" />
+            </a>
+            <a href="#">
+              <img src="img/youtube.svg" class="w-[30px] lg:w-full" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="mt-7 lg:mt-0">
+          <h2 class="text-xl text-primary font-semibold">Pelayanan</h2>
+          <ul class="mt-5 flex flex-col gap-2">
+            <li>Template Design Website</li>
+            <li>Template Sourcecode Website</li>
+            <li>Jasa Installasi Website</li>
+            <li>Jasa Custom Design/Code Website</li>
+            <li>Jasa Development Website</li>
+          </ul>
+        </div>
+        <div class="mt-7 lg:mt-0">
+          <h2 class="text-xl text-primary font-semibold">Ketentuan Umum</h2>
+          <ul class="mt-5 flex flex-col gap-2">
+            <li><a href="#" class="text-primary">Lisensi & Hak cipta</a></li>
+            <li><a href="#" class="text-primary">Cara Kerja</a></li>
+            <li><a href="#" class="text-primary">Syarat & Ketentuan</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-3 text-center py-4">
+        <p>&copy;2023 templaterweb.com |All right reserved</p>
+      </div>
+    </footer>
+
+    <!-- Flowbite script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
+
+    <!-- Swiperr -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Myscript -->
+    <script src="js/detail.js"></script>
+  </body>
+</html>
