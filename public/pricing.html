@@ -110,7 +110,7 @@
                 >Flash Sale</a
               >
               <span
-                class="bg-primary text-[10px] xl:text-xs p-1 md:px-2 md-py-1 xl:p-1 text-white rounded absolute top-0 right-0 md:-top-[10px] md:-right-[20px] lg:-top-[10px] lg:-right-[30px] animate-pulse"
+                class="bg-primary text-[10px] xl:text-xs p-1 md:p-[1px] xl:p-1 text-white rounded absolute top-0 right-0 md:-top-[10px] md:-right-[20px] lg:-top-[10px] lg:-right-[30px] animate-pulse"
                 >Live</span
               >
             </li>
@@ -186,171 +186,199 @@
     </div>
 
     <div class="myContainer mt-10">
-      <p class="text-2xl font-medium text-center">
+      <p class="text-lg lg:text-2xl font-medium text-center">
         Sesuaikan pilihan kebutuhan bisnis anda satu langkah lebih baik
       </p>
 
-      <div class="mt-12 flex justify-center gap-10">
-        <div class="py-5 px-8 rounded-xl shadow-md w-[330px] relative">
-          <div class="flex items-center gap-2 justify-center">
-            <img src="img/personal.svg" alt="" />
-            <p>Personal</p>
+      <div class="mt-5 flex justify-center gap-10 px-4">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper pt-10">
+            <div class="swiper-slide">
+              <div
+                class="py-5 px-8 rounded-xl shadow-md lg:w-[300px] 2xl:w-[330px] relative"
+              >
+                <div class="flex items-center gap-2 justify-center">
+                  <img src="img/personal.svg" alt="" />
+                  <p>Personal</p>
+                </div>
+
+                <hr class="absolute top-[60px] w-full left-0" />
+
+                <div class="mt-11">
+                  <p
+                    class="text-xl lg:text-2xl 2xl:text-3xl font-medium text-black text-center"
+                  >
+                    For Free
+                  </p>
+
+                  <a
+                    href="#"
+                    class="py-3 text-sm text-primary rounded-xl border border-primary block text-center mt-10 hover:bg-primary hover:text-white transition ease-in-out duration-300 focus:ring-4 focus:ring-purple-300"
+                    >Pilih Paket</a
+                  >
+
+                  <ul class="mt-7">
+                    <li class="flex items-center gap-2">
+                      <img src="img/check.svg" alt="" />
+                      Full source code
+                    </li>
+                    <li class="flex items-center gap-2 mt-3">
+                      <img src="img/check.svg" alt="" />
+                      Dokumentasi Installasi
+                    </li>
+                    <li class="flex items-center gap-2 mt-3">
+                      <img src="img/check.svg" alt="" />
+                      Asset icons
+                    </li>
+                    <li class="flex items-center gap-2 mt-3">
+                      <img src="img/check.svg" alt="" />
+                      Asset Ilustrations
+                    </li>
+                    <li class="flex items-center gap-2 mt-3">
+                      <img src="img/check.svg" alt="" />
+                      Grup konsultasi
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div
+                class="py-5 px-8 rounded-xl shadow-md lg:w-[300px] 2xl:w-[330px] relative border border-purple-400"
+              >
+                <span
+                  class="bg-primary text-white text-sm font-medium px-5 py-2 rounded absolute -top-[20px] left-1/2 -translate-x-1/2"
+                  >Populer Paket</span
+                >
+
+                <div class="flex items-center gap-2 justify-center">
+                  <img src="img/bisnis.svg" alt="" />
+                  <p>Bisnis</p>
+                </div>
+
+                <hr class="absolute top-[60px] w-full left-0" />
+
+                <div class="mt-11">
+                  <p
+                    class="text-xl lg:text-2xl 2xl:text-3xl font-medium text-black text-center"
+                  >
+                    Rp 255.000
+                  </p>
+
+                  <a
+                    href="#"
+                    class="py-3 text-sm text-white rounded-xl bg-primary block text-center mt-10 hover:bg-purple-700 hover:text-slate-300 transition ease-in-out duration-300 focus:ring-4 focus:ring-purple-300"
+                    >Pilih Paket</a
+                  >
+
+                  <ul class="mt-7">
+                    <li class="flex items-center gap-2">
+                      <img src="img/check.svg" alt="" />
+                      Full source code
+                    </li>
+                    <li class="flex items-center gap-2 mt-3">
+                      <img src="img/check.svg" alt="" />
+                      Dokumentasi Installasi
+                    </li>
+                    <li class="flex items-center gap-2 mt-3">
+                      <img src="img/check.svg" alt="" />
+                      Figma project (Editable)
+                    </li>
+                    <li class="flex items-center gap-2 mt-3">
+                      <img src="img/check.svg" alt="" />
+                      Design system (Font, typograph, colors, component)
+                    </li>
+                    <li class="flex items-center gap-2 mt-3">
+                      <img src="img/check.svg" alt="" />
+                      Premium icons
+                    </li>
+                    <li class="flex items-center gap-2 mt-3">
+                      <img src="img/check.svg" alt="" />
+                      Premium Ilustrations
+                    </li>
+                    <li class="flex items-center gap-2 mt-3">
+                      <img src="img/check.svg" alt="" />
+                      Grup konsultasi
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div
+                class="py-5 px-8 rounded-xl shadow-md lg:w-[300px] 2xl:w-[330px] relative border border-rose-500"
+              >
+                <span
+                  class="bg-rose-500 text-white text-sm font-medium px-5 py-2 rounded absolute -top-[20px] left-1/2 -translate-x-1/2"
+                  >Ready to use!</span
+                >
+
+                <div class="flex items-center gap-2 justify-center">
+                  <img src="img/bxs-building-house.svg.svg" alt="" />
+                  <p>Coorporate</p>
+                </div>
+
+                <hr class="absolute top-[60px] w-full left-0" />
+
+                <div class="mt-11">
+                  <p
+                    class="text-xl lg:text-2xl 2xl:text-3xl font-medium text-black text-center"
+                  >
+                    Rp 255.000
+                  </p>
+
+                  <a
+                    href="#"
+                    class="py-3 text-sm text-white bg-rose-500 rounded-xl block text-center mt-10 hover:bg-rose-600 hover:text-slate-300 transition ease-in-out duration-300 focus:ring-4 focus:ring-purple-300"
+                    >Pilih Paket</a
+                  >
+
+                  <ul class="mt-7">
+                    <li class="flex items-center gap-2">
+                      <img src="img/check.svg" alt="" />
+                      Full source code
+                    </li>
+                    <li class="flex items-center gap-2 mt-3">
+                      <img src="img/check.svg" alt="" />
+                      Dokumentasi Installasi
+                    </li>
+                    <li class="flex items-center gap-2 mt-3">
+                      <img src="img/check.svg" alt="" />
+                      Figma project (Editable)
+                    </li>
+                    <li class="flex items-center gap-2 mt-3">
+                      <img src="img/check.svg" alt="" />
+                      Design system (Font, typograph, colors, component)
+                    </li>
+                    <li class="flex items-center gap-2 mt-3">
+                      <img src="img/check.svg" alt="" />
+                      Premium icons
+                    </li>
+                    <li class="flex items-center gap-2 mt-3">
+                      <img src="img/check.svg" alt="" />
+                      Premium Ilustrations
+                    </li>
+                    <li class="flex items-center gap-2 mt-3">
+                      <img src="img/check.svg" alt="" />
+                      Grup konsultasi
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
-
-          <hr class="absolute top-[60px] w-full left-0" />
-
-          <div class="mt-11">
-            <p class="text-3xl font-medium text-black text-center">
-              Rp 255.000
-            </p>
-
-            <a
-              href="#"
-              class="py-3 text-sm text-primary rounded-xl border border-primary block text-center mt-10 hover:bg-primary hover:text-white transition ease-in-out duration-300 focus:ring-4 focus:ring-purple-300"
-              >Pilih Paket</a
-            >
-
-            <ul class="mt-7">
-              <li class="flex items-center gap-2">
-                <img src="img/check.svg" alt="" />
-                Full source code
-              </li>
-              <li class="flex items-center gap-2 mt-3">
-                <img src="img/check.svg" alt="" />
-                Dokumentasi Installasi
-              </li class="flex items-center gap-2 mt-3">
-              <li class="flex items-center gap-2 mt-3">
-                <img src="img/check.svg" alt="" />
-                Asset icons
-              </li>
-              <li class="flex items-center gap-2 mt-3">
-                <img src="img/check.svg" alt="" />
-                Asset Ilustrations
-              </li>
-              <li class="flex items-center gap-2 mt-3">
-                <img src="img/check.svg" alt="" />
-                Grup konsultasi
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="py-5 px-8 rounded-xl shadow-md w-[330px] relative border border-purple-400 ">
-        
-            <span class="bg-primary text-white text-sm font-medium px-5 py-2 rounded absolute -top-[20px] left-1/2 -translate-x-1/2">Populer Paket</span>
-          
-          <div class="flex items-center gap-2 justify-center">
-            <img src="img/bisnis.svg" alt="" />
-            <p>Bisnis</p>
-          </div>
-
-          <hr class="absolute top-[60px] w-full left-0" />
-
-          <div class="mt-11">
-            <p class="text-3xl font-medium text-black text-center">
-              Rp 255.000
-            </p>
-
-            <a
-              href="#"
-              class="py-3 text-sm text-white rounded-xl bg-primary block text-center mt-10 hover:bg-purple-700 hover:text-slate-300 transition ease-in-out duration-300 focus:ring-4 focus:ring-purple-300"
-              >Pilih Paket</a
-            >
-
-            <ul class="mt-7">
-              <li class="flex items-center gap-2">
-                <img src="img/check.svg" alt="" />
-                Full source code
-              </li>
-              <li class="flex items-center gap-2 mt-3">
-                <img src="img/check.svg" alt="" />
-                Dokumentasi Installasi
-              </li class="flex items-center gap-2 mt-3">
-              <li class="flex items-center gap-2 mt-3">
-                <img src="img/check.svg" alt="" />
-                Figma project (Editable)
-              </li>
-              <li class="flex items-center gap-2 mt-3">
-                <img src="img/check.svg" alt="" />
-                Design system (Font, typograph, colors, component)
-              </li>
-              <li class="flex items-center gap-2 mt-3">
-                <img src="img/check.svg" alt="" />
-                Premium icons
-              </li>
-              <li class="flex items-center gap-2 mt-3">
-                <img src="img/check.svg" alt="" />
-                Premium Ilustrations
-              </li>
-              <li class="flex items-center gap-2 mt-3">
-                <img src="img/check.svg" alt="" />
-                Grup konsultasi
-              </li>
-
-            </ul>
-          </div>
-        </div>
-
-        <div class="py-5 px-8 rounded-xl shadow-md w-[330px] relative border border-rose-500 ">
-        
-          <span class="bg-rose-500 text-white text-sm font-medium px-5 py-2 rounded absolute -top-[20px] left-1/2 -translate-x-1/2">Ready to use!</span>
-        
-        <div class="flex items-center gap-2 justify-center">
-          <img src="img/bxs-building-house.svg.svg" alt="" />
-          <p>Coorporate</p>
-        </div>
-
-        <hr class="absolute top-[60px] w-full left-0" />
-
-        <div class="mt-11">
-          <p class="text-3xl font-medium text-black text-center">
-            Rp 255.000
-          </p>
-
-          <a
-            href="#"
-            class="py-3 text-sm text-white bg-rose-500 rounded-xl block text-center mt-10 hover:bg-rose-600 hover:text-slate-300 transition ease-in-out duration-300 focus:ring-4 focus:ring-purple-300"
-            >Pilih Paket</a
-          >
-
-          <ul class="mt-7">
-            <li class="flex items-center gap-2">
-              <img src="img/check.svg" alt="" />
-              Full source code
-            </li>
-            <li class="flex items-center gap-2 mt-3">
-              <img src="img/check.svg" alt="" />
-              Dokumentasi Installasi
-            </li class="flex items-center gap-2 mt-3">
-            <li class="flex items-center gap-2 mt-3">
-              <img src="img/check.svg" alt="" />
-              Figma project (Editable)
-            </li>
-            <li class="flex items-center gap-2 mt-3">
-              <img src="img/check.svg" alt="" />
-              Design system (Font, typograph, colors, component)
-            </li>
-            <li class="flex items-center gap-2 mt-3">
-              <img src="img/check.svg" alt="" />
-              Premium icons
-            </li>
-            <li class="flex items-center gap-2 mt-3">
-              <img src="img/check.svg" alt="" />
-              Premium Ilustrations
-            </li>
-            <li class="flex items-center gap-2 mt-3">
-              <img src="img/check.svg" alt="" />
-              Grup konsultasi
-            </li>
-
-          </ul>
+          <div class="swiper-pagination"></div>
         </div>
       </div>
-      </div>
-
 
       <div class="mt-12 text-center">
-        <p>Masih bingung dengan kebutuhan bisnis anda? konsultasikan sekarang kepada kami</p>
+        <p>
+          Masih bingung dengan kebutuhan bisnis anda? konsultasikan sekarang
+          kepada kami
+        </p>
         <a href="#" class="myFirstBtn inline-block mt-6">Hubungi Kami</a>
       </div>
     </div>
@@ -411,6 +439,6 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
     <!-- Myscript -->
-    <script src="js/index.js"></script>
+    <script src="js/pricing.js"></script>
   </body>
 </html>
