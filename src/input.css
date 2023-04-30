@@ -38,3 +38,11 @@ body{
     @apply text-gray-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary
    
 }
+
+.tabBtn.active{
+  @apply  !text-white !bg-primary
+}
+
+.tabBtn {
+    @apply !text-primary border border-primary
+}
